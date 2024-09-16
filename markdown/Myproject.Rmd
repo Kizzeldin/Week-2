@@ -9,10 +9,12 @@ knitr::opts_chunk$set(echo = TRUE)
 install.packages("here")
 library(here)
 here()
+usethis::use_git()
 
 ```
 
 ```{r}
+here()
 usethis::use_git()
 usethis::create_github_token()
 usethis::use_github()

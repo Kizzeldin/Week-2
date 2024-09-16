@@ -9,6 +9,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 library(here)
 #version control check#
+library(dplyr)
+
 ```
 
 ## R Markdown
